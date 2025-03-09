@@ -6,26 +6,26 @@ configMapGenerator:
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=latest
+      - DD_VERSION=a6a32611ecbe5c7a637c2e473a9e9c06f52960b3
 
   - name: pass-summary-api-config
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=latest
+      - DD_VERSION=a6a32611ecbe5c7a637c2e473a9e9c06f52960b3
 
   - name: pass-image-api-config
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=latest
+      - DD_VERSION=a6a32611ecbe5c7a637c2e473a9e9c06f52960b3
 
 images:
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-api
-    newTag: "latest"
+    newTag: "a6a32611ecbe5c7a637c2e473a9e9c06f52960b3"
 
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-summary-api
-    newTag: "latest"
+    newTag: "a6a32611ecbe5c7a637c2e473a9e9c06f52960b3"
 
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-image-api
-    newTag: "latest"
+    newTag: "a6a32611ecbe5c7a637c2e473a9e9c06f52960b3"
