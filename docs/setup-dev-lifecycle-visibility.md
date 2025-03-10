@@ -1,6 +1,6 @@
 ## Datadog: Development Lifecycle Visibility
 
-Everything in the development lifecycle that happens before deployment  should now be visible in the Datadog console.
+Everything in the development lifecycle that happens before deployment  should now be visible in the Datadog console!
 
 From the Datadog console, pressing cmd-k or ctrl-k opens the “Go To” dialog \- this makes it easy to jump to a particular pane of the console. For each of the sections below, you can use this dialog to jump where you need to go.
 
