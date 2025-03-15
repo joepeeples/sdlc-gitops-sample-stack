@@ -6,26 +6,26 @@ configMapGenerator:
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=2123eb85bdfa9cd565e7cf8e36cfc655166d71e2
+      - DD_VERSION=5b4559bde649f5afe645bce09a18e5f0270847ff
 
   - name: pass-summary-api-config
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=2123eb85bdfa9cd565e7cf8e36cfc655166d71e2
+      - DD_VERSION=5b4559bde649f5afe645bce09a18e5f0270847ff
 
   - name: pass-image-api-config
     behavior: merge
     literals:
       - DD_ENV=dev
-      - DD_VERSION=2123eb85bdfa9cd565e7cf8e36cfc655166d71e2
+      - DD_VERSION=5b4559bde649f5afe645bce09a18e5f0270847ff
 
 images:
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-api
-    newTag: "2123eb85bdfa9cd565e7cf8e36cfc655166d71e2"
+    newTag: "5b4559bde649f5afe645bce09a18e5f0270847ff"
 
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-summary-api
-    newTag: "2123eb85bdfa9cd565e7cf8e36cfc655166d71e2"
+    newTag: "5b4559bde649f5afe645bce09a18e5f0270847ff"
 
   - name: ghcr.io/joepeeples/sdlc-gitops-sample-stack/pass-image-api
-    newTag: "2123eb85bdfa9cd565e7cf8e36cfc655166d71e2"
+    newTag: "5b4559bde649f5afe645bce09a18e5f0270847ff"
