@@ -19,7 +19,7 @@ metadata:
   namespace: argocd # Make sure this reflects the namespace you are deploying ArgoCD in
 data:
   service.webhook.cd-visibility-webhook: |
-    url: https://webhook-intake.datadoghq.eu/api/v2/webhook
+    url: https://webhook-intake.datadoghq.com/api/v2/webhook
     headers:
     - name: "DD-CD-PROVIDER-ARGOCD"
       value: "true"
