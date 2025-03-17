@@ -4,7 +4,7 @@ curl -L https://dtdg.co/latest-java-tracer -o $HOME/dd-java-agent.jar
 
 export DD_CIVISIBILITY_AGENTLESS_ENABLED=true
 export DD_CIVISIBILITY_ENABLED=true
-export DD_SITE=datadoghq.eu
+export DD_SITE=datadoghq.com
 export DD_ENV=ci
 export DD_SERVICE=pass-summary-api
 
